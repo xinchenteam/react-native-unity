@@ -1,6 +1,6 @@
-package com.xinchenteamreactnativeunity;
+package com.azesmwayreactnativeunity;
 
-import static com.xinchenteamreactnativeunity.ReactNativeUnity.*;
+import static com.azesmwayreactnativeunity.ReactNativeUnity.*;
 
 import android.os.Handler;
 import android.view.View;

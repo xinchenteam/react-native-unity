@@ -1,4 +1,4 @@
-package com.xinchenteamreactnativeunity;
+package com.azesmwayreactnativeunity;
 
 import android.view.View;
 
