@@ -1,6 +1,6 @@
 {
   "name": "@xinchenteam/react-native-unity",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "React Native Unity",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -174,5 +174,9 @@
     "name": "unityview",
     "type": "components",
     "jsSrcsDir": "src"
+  },
+  "directories": {
+    "doc": "docs",
+    "example": "example"
   }
 }
