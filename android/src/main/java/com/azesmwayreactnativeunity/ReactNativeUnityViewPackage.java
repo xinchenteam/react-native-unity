@@ -1,4 +1,4 @@
-package com.azesmwayreactnativeunity;
+package com.xinchenteamreactnativeunity;
 
 import com.facebook.react.ReactPackage;
 import com.facebook.react.bridge.NativeModule;

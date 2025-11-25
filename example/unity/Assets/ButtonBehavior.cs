@@ -18,7 +18,7 @@ public class ButtonBehavior : MonoBehaviour
     {
         if (Application.platform == RuntimePlatform.Android)
         {
-            using (AndroidJavaClass jc = new AndroidJavaClass("com.azesmwayreactnativeunity.ReactNativeUnityViewManager"))
+            using (AndroidJavaClass jc = new AndroidJavaClass("com.xinchenteamreactnativeunity.ReactNativeUnityViewManager"))
             {
                 jc.CallStatic("sendMessageToMobileApp", "The button has been tapped!");
             }

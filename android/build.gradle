@@ -38,7 +38,7 @@ def supportsNamespace() {
 
 android {
   if (supportsNamespace()) {
-    namespace "com.azesmwayreactnativeunity"
+    namespace "com.xinchenteamreactnativeunity"
 
     sourceSets {
       main {
@@ -115,6 +115,6 @@ if (isNewArchitectureEnabled()) {
   react {
     jsRootDir = file("../src/")
     libraryName = "RNUnityView"
-    codegenJavaPackageName = "com.azesmwayreactnativeunity"
+    codegenJavaPackageName = "com.xinchenteamreactnativeunity"
   }
 }

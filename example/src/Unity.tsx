@@ -1,4 +1,4 @@
-import UnityView from '@azesmway/react-native-unity'
+import UnityView from '@xinchenteam/react-native-unity'
 import React, { useEffect, useRef } from 'react'
 import { View } from 'react-native'
 

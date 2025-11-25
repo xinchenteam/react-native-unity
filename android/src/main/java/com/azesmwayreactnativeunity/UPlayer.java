@@ -1,4 +1,4 @@
-package com.azesmwayreactnativeunity;
+package com.xinchenteamreactnativeunity;
 
 import android.app.Activity;
 import android.content.res.Configuration;

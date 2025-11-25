@@ -489,7 +489,7 @@ DEPENDENCIES:
   - React-jsinspector (from `../node_modules/react-native/ReactCommon/jsinspector`)
   - React-logger (from `../node_modules/react-native/ReactCommon/logger`)
   - react-native-safe-area-context (from `../node_modules/react-native-safe-area-context`)
-  - "react-native-unity (from `../node_modules/@azesmway/react-native-unity`)"
+  - "react-native-unity (from `../node_modules/@xinchenteam/react-native-unity`)"
   - React-NativeModulesApple (from `../node_modules/react-native/ReactCommon/react/nativemodule/core/platform/ios`)
   - React-perflogger (from `../node_modules/react-native/ReactCommon/reactperflogger`)
   - React-RCTActionSheet (from `../node_modules/react-native/Libraries/ActionSheetIOS`)
@@ -564,7 +564,7 @@ EXTERNAL SOURCES:
   react-native-safe-area-context:
     :path: "../node_modules/react-native-safe-area-context"
   react-native-unity:
-    :path: "../node_modules/@azesmway/react-native-unity"
+    :path: "../node_modules/@xinchenteam/react-native-unity"
   React-NativeModulesApple:
     :path: "../node_modules/react-native/ReactCommon/react/nativemodule/core/platform/ios"
   React-perflogger:
