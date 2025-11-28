@@ -36,8 +36,6 @@ UnityFramework* UnityFrameworkLoad() {
 
 NSDictionary* appLaunchOpts;
 
-static RNUnityView *sharedInstance;
-
 - (bool)unityIsInitialized {
     return [self ufw] && [[self ufw] appController];
 }
@@ -205,6 +203,10 @@ static RNUnityView *sharedInstance;
 }
 
 - (void)handleCommand:(nonnull const NSString *)commandName args:(nonnull const NSArray *)args {
+    if (![self unityIsInitialized]) {
+        NSLog(@"[RNUnityView] Warning: Ignoring command '%@' - Unity is not initialized", commandName);
+        return;
+    }
     RCTRNUnityViewHandleCommand(self, commandName, args);
 }
 
