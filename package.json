@@ -1,6 +1,6 @@
 {
   "name": "@xinchenteam/react-native-unity",
-  "version": "0.0.3-beta.2",
+  "version": "0.0.3",
   "description": "React Native Unity",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
